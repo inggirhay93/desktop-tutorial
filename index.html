@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUSANTARA TOUR & TRAVEL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+					<div style="display: inline-block; vertical-align: middle;">
+						<img src="img/nusa.png" alt="Logo" width="80" height="60" class="d-inline-block align-text-top">
+					</div>
+					<div style="display: inline-block; vertical-align: middle;">
+						<p><strong>NUSANTARA TOUR & TRAVEL</strong> <br>Discover New Horizons</p>
+					</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Booking</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Anoter menu
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Recomended</a></li>
+                                <li><a class="dropdown-item" href="#Promo">Promo</a></li>
+								<li><a class="dropdown-item" href="#benefit">Benefit</a></li>
+								<li><a class="dropdown-item" href="#testi">Testimoni</a></li>
+								<li><hr class="dropdown-divider"></hr></li>
+                                <li><a class="dropdown-item" href="#kontak">Contact</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" aria-disabled="true">Labuhan Bajo</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" >
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+		<nav class="navbar-expand-lg  navbar-dark bg-primary">
+			<div class="row bar2">
+				<div class="col-md-5 col-sm-12 d-flex nav-kiri">
+					<form class="d-flex">
+						 <button class="btn btn-success bg-dark" type="submit">Select Date</button>
+						 <input class="form-control me-2" type="date" id="tanggal" name="tanggal"/>
+					</form>
+				</div>
+				<div class="col-md-5 col-sm-12 d-flex nav-tengah">
+					<div class="btn-group">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Domestic Tours
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Bali Island</a></li>
+                                <li><a class="dropdown-item" href="#">Bromo Mountaid</a></li>
+								<li><a class="dropdown-item" href="#">Raja Ampat Island</a></li>
+								<li><a class="dropdown-item" href="#">Banda Naira Island</a></li>
+								<li><a class="dropdown-item" href="#">Borobudur Tample</a></li>
+								<li><a class="dropdown-item" href="#">Lombok Island</a></li>
+                            </ul>
+					</div>
+					<div class="btn-group">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Foreign Tour
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Singapore</a></li>
+                                <li><a class="dropdown-item" href="#">Malaysia</a></li>
+								<li><a class="dropdown-item" href="#">Soulth Korea</a></li>
+                                <li><a class="dropdown-item" href="#kontak">Thailand</a></li>
+                            </ul>
+					</div>
+					<div class="btn-group">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Tickets
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Plane Tickets</a></li>
+                                <li><a class="dropdown-item" href="#">Train Tickets</a></li>
+								<li><a class="dropdown-item" href="#">Ship Tickets</a></li>
+								<li><a class="dropdown-item" href="#">tourist Tickets</a></li>
+                            </ul>
+					</div>
+					<div class="btn-group">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Lodging
+                        </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Hotel</a></li>
+                                <li><a class="dropdown-item" href="#">Village</a></li>
+                            </ul>
+					</div>
+					<div class="btn-group">
+						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Visa
+                        </a>
+						<ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#daftar">Create</a></li>
+                                <li><a class="dropdown-item" href="#daftar">Extend</a></li>
+                         </ul>
+					</div>
+				</div>
+				<div class="col-md-2 d-none d-md-block" style="text-align: right">
+					<a href="https://www.facebook.com" target="_blank">
+					<button><i class="fab fa-facebook-f"></i></button>
+					</a>
+					<a href="https://www.whatsapp.com" target="_blank">
+					<button><i class="bi bi-whatsapp"></i></button>
+					<a href="mailto:sa@lon.co.id" target="_blank">
+					<button><i class="bi bi-envelope-at-fill"></i></</button>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+        <div class="row">
+			<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="img/bajo2.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block">
+					<h5>Komodo Island Full Day Tour at Labuan Bajo Island</h5>
+					<p>One-Day Komodo Island Adventure: Speedboat Tour to Padar, Long Beach, Komodo, Taka Makasar, Manta Point & Kanawa. Enjoy activities like hiking, swimming, snorkeling, throughout your journey.</p>
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <img src="img/komodo.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block">
+					<h5>From Labuan Bajo Explore komodo dragon island</h5>
+					<p>Departure From Labuan Bajo Visit Padar island Visit Pink Beach Visit .Komodo island Swim and snorkeling at Manta Point One day trip to explore those islands</p>
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <img src="img/menyelam.png" class="d-block w-100" alt="...">
+				  <div class="carousel-caption d-none d-md-block">
+					<h5>Labuan Bajo: Swim and Snorkel Komodo Island Trip.</h5>
+					<p>Explore Komodo Island on this full-day trip with lunch, and snorkeling gear included. Hop from Labuan Bajo via speedboat and see the Earth’s largest lizards.</p>
+				  </div>
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+        </div>
+		<div class="hastag">
+			<p>
+			  <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">#Indonesia</a>
+			  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">#East Nusa Tenggara</button>
+			  <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">#Labuhan Bajo</button>
+			</p>
+		</div>
+		<div class="row mt-4">
+		<div class="col-md-4">
+			<h1 class="font-effect-fire">LABUHAN BAJO.</h1>
+		</div>
+		<div class="col-md-8">
+			<p><strong>Indonesia</strong> does have a lot of interesting tourist destinations to visit, ranging from the western end to the eastern end. One of the things that has been quite booming lately is Komodo National Park, which is in East Nusa Tenggara Province. In this National Park, you will be invited to enjoy some unique tourism potential, which must be visited.</p>
+		</div>
+		<br></br>
+		<a id="daftar"><strong>#REKOMENDED</strong></a>
+        <div class="row mt-4 row-cols-1 row-cols-md-2 g-4 d-flex center">
+				<div class="card card-item">
+				  <img class="card-img-top" src="img/pink.png" alt="Card image cap">
+				  <div class="card-body">
+					<h5 class="card-title">One day Tour: Escape to the Blushing Sands of Komodo Island Pink Beach.</h5>
+					<p class="card-text">1 day • Pickup available<br><span class="book">Booked 2 times yesterday</span></p>
+					<p>&#9733;&#9733;&#9733;&#9733;&#9733; 4.8<br>
+					<span class="harga">From Rp 2.300,000</span> <strong>per person</strong></p>
+				  </div>
+				</div>
+				<div class="card card-item">
+					<img class="card-img-top" src="img/ban.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Komodo Island Full Day Tour at Labuan Bajo Island.</h5>
+						<p class="card-text">9 hours • Skip the line • Pickup available<br><span class=book>New Activity</span></br></p>
+						<p>&#9733;&#9733;&#9733;&#9733;&#9733; 4.8<br>
+						<span class="harga">From Rp 2,100,000</span><strong> per person</strong></br></p>
+					</div>
+				</div>
+				<div class="card card-item">
+					<img class="card-img-top" src="img/kod.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Komodo Island: Komodo Dragons & Islands Day Tour.</h5>
+						<p class="card-text">1 day • Pickup available • Small group<br><span class=book>Booked 2 times yesterday</span></br></p>
+						<p>&#9733;&#9733;&#9733;&#9733;&#9733; 4.8<br>
+						<span class="harga">From Rp 1,500,000</span> <strong>per person</strong></br></p>
+					</div>
+				</div>
+				<div class="card card-item">
+					<img class="card-img-top" src="img/pesi.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Labuan Bajo: One Day Tour to Explore Komodo National Park.</h5>
+						<p class="card-text">1 day • Pickup available<br><span class=book>Booked 2 times yesterday</span></br></p>
+						<p>&#9733;&#9733;&#9733;&#9733;&#9733; 4.8<br>
+						<span class="harga">From Rp 1,480,000</span> <strong>per person</strong></br></p>
+					</div>
+				</div>
+				<div class="card card-item">
+					<img class="card-img-top" src="img/goa.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Labuan Bajo: Half-Day Trip Sand Island and Rangko Cave.</h5>
+						<p class="card-text">30 minutes • Small group<br><span class=book>Booked 2 times yesterday</span></br></p>
+						<p>&#9733;&#9733;&#9733;&#9733;&#9734; 4.0<br>
+						<span class="harga">From Rp 500,000</span><strong> per person</strong></br></p>
+					</div>
+				</div>
+				<div class="card card-item">
+					<img class="card-img-top" src="img/kalong.png" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Labuan Bajo: Sunset Trip To Kalong islands With Snorkeling.</h5>
+						<p class="card-text">1 day • Pickup available<br><span class=book>New activity</span></br></p>
+						<p>&#9733;&#9733;&#9733;&#9733;&#9733; 4.8<br>
+						<span class="harga">From Rp 1,600,000</span><strong> per person</strong></br></p>
+					</div>
+				</div>
+		
+        </div>
+		<div>
+		<a id="benefit"><strong>#BENEFIT</strong></a>
+		</div>
+		<div class="row mt-4 row-cols-1 row-cols-md-2 g-4 d-flex center">
+			<table class="table">
+				<thead class="thead">
+					<tr>
+					  <th scope="col">Benefit</th>
+					  <th scope="col">Descripsion</th>
+					</tr>
+				</thead>
+				 <tbody>
+					<tr>
+					  <th>Easy Booking & Access</th>
+						<td>
+						<ul>
+							<li><strong>24/7 Online Booking:</strong>  Book anytime, anywhere.</li>
+							<li><strong>Quick & Simple Process:</strong>  Hassle-free booking experience.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Diverse Travel Packages</th>
+					   <td>
+						<ul>
+							<li><strong>Variety of Tours:</strong> Domestic & international packages.</li>
+							<li><strong>Customizable Itineraries:</strong> Tailor your trip.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Competitive Prices</th>
+					   <td>
+						<ul>
+							<li><strong>Best Price Guarantee:</strong> Get the best value.</li>
+							<li><strong>Exclusive Deals:</strong>Access seasonal promotions.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Safety & Comfort</th>
+					  <td>
+						<ul>
+							<li><strong>Secure Payment:</strong> Reliable payment methods.</li>
+							<li><strong>24/7 Customer Support:</strong>Assistance whenever needed.</li>
+						</ul>
+					  </td> 
+					</tr>
+					<tr>
+					  <th>Reviews & Recommendations</th>
+					   <td>
+						<ul>
+							<li><strong>Customer Testimonials:</strong> Hear from satisfied customers.</li>
+							<li><strong>Top Destinations:</strong>Discover popular travel spots.</li>
+						</ul>
+					  </td> 
+					</tr>
+					<tr>
+					  <th>Comprehensive Services</th>
+					  <td>
+						<ul>
+							<li><strong>Custom Travel Plans:</strong>Tailor-made solutions.</li>
+							<li><strong>Integrated Travel Services:</strong>Flights, hotels, and transport together.</li>
+						</ul>
+					  </td>
+					</tr>
+					</tr>
+					<tr>
+					  <th>Useful Travel Information</th>
+						<td>
+						<ul>
+							<li><strong>Destination Guides: </strong>Tips & local insights</li>
+							<li><strong>Travel Blog:</strong> Read inspiring articles.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Mobile-Friendly</th>
+					  <td>
+						<ul>
+							<li><strong>Optimized for Mobile:</strong> Plan and book directly from your phone.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Personalized Travel Planning</th>
+					  <td>
+						<ul>
+							<li><strong>Professional Tour Guides:</strong>Expert guides for local experiences.</li>
+							<li><strong>Custom Itineraries:</strong>Create your ideal trip.</li>
+						</ul>
+					  </td>
+					</tr>
+					<tr>
+					  <th>Trusted Experience</th>
+					  <td>
+						<ul>
+							<li><strong>Years of Expertise:</strong> Providing exceptional service for years.</li>
+							<li><strong>Reliable & Trusted:</strong> Thousands of happy customers.</li>
+						</ul>
+					  </td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<a id="Promo"><strong>#PROMO</strong></a>
+		<div class="row mt-4 row-cols-1 row-cols-md-2 g-4 d-flex center">
+				<div class="card mb-3" style="max-width: 540px;">
+				  <div class="row no-gutters">
+					<div class="col-md-4">
+					  <img src="img/2.png" class="card-img" alt="...">
+					</div>
+					<div class="col-md-8">
+					  <div class="card-body">
+						<h5 class="card-title">Explore Bali’s Paradise with Our Exclusive Tour Packages:</h5>
+						<p class="card-text">Unforgettable Bali experience.Visit Iconic Destinations. All-Inclusive Package.</p>
+						<p class="card-text"><small class="text-muted">Get Your Guides.</small></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="card mb-3" style="max-width: 540px;">
+				  <div class="row no-gutters">
+					<div class="col-md-4">
+					  <img src="img/1.png" class="card-img" alt="...">
+					</div>
+					<div class="col-md-8">
+					  <div class="card-body">
+						<h5 class="card-title">Embark on the Ultimate Komodo Experience:</h5>
+						<p class="card-text">Explore the stunning Komodo National Park.See the Famous Komodo Dragons up close!</p>
+						<p class="card-text"><small class="text-muted">Get Your Guides.</small></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="card mb-3" style="max-width: 540px;">
+				  <div class="row no-gutters">
+					<div class="col-md-4">
+					  <img src="img/5.png" class="card-img" alt="...">
+					</div>
+					<div class="col-md-8">
+					  <div class="card-body">
+						<h5 class="card-title">Discover the Beauty of Lombok with Our Special Package: </h5>
+						<p class="card-text">Explore Lombok's stunning landscapes.Visit Mount Rinjani.Free Waterfall Trekking Tour.Experience Lombok’s natural wonders.</p>
+						<p class="card-text"><small class="text-muted">Get Your Guides.</small></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div class="card mb-3" style="max-width: 540px;">
+				  <div class="row no-gutters">
+					<div class="col-md-4">
+					  <img src="img/4.png" class="card-img" alt="...">
+					</div>
+					<div class="col-md-8">
+					  <div class="card-body">
+						<h5 class="card-title">Experience the Untouched Beauty of Raja Ampat:</h5>
+						<p class="card-text">Explore one of the world’s most stunning marine destinations.Snorkel and Dive with vibrant coral reefs and exotic marine life.</p>
+						<p class="card-text"><small class="text-muted">Get Your Guides.</small></p>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			
+		</div>
+		<a id="testi"><strong>#TESTIMONI</strong></a>
+		<div class="row mt-4">
+		  <div class="col-md-12 justify-content-center flex-wrap" id="testimony">
+				<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img class="rounded-circle" src="img/t1.png" alt="First slide">
+					  <div class="position-absolote top-0 strat-0 translate-midle">
+						<h3>Dayana</h3>
+						<p>"An amazing experience with Nusantara Travel! Knowledgeable and friendly guides made our Labuan Bajo trip unforgettable. Everything was perfectly arranged. Highly recommend!"</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+					  <img class="rounded-circle" src="img/t2.png" alt="Second slide">
+						<h3>Louise</h3>
+						<p>"Our Komodo National Park tour with Nusantara Travel exceeded expectations! Well-planned itinerary, professional staff, and great facilities. Definitely recommend!"</p>
+					</div>
+					<div class="carousel-item">
+					  <img class="rounded-circle" src="img/t3.png" alt="Third slide">
+					    <h3>Jhon Pitter</h3>
+						<p>"Nusantara Travel made our vacation unforgettable! From perfect destinations to fantastic snorkeling, everything was well-organized. We felt truly cared for. We'll be back!"</p>
+					</div>
+				  </div>
+				</div>
+		  </div>
+		</div>
+		<div class="row mt-4" id="lokasi">
+			<div class="col-md-6" id="kontak">
+				<h3>NUSANTARA TOUR & TRAVEL.</h3>
+				<table id="tabkontak">
+							<tr>
+								<td class="icon"><i class="bi bi-bricks"></i></td>
+								<td class="content"><strong>CONTACT FOR DOMESTIC</strong></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-person-vcard-fill"></i></td>
+								<td class="content">ruko Greenland Blok N No.10 Batam Centar</td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-telephone-fill"></i></td>
+								<td class="content">(022) 838466729</td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-envelope-at-fill"></i></td>
+								<td class="content"><a href="mailto:Nusantara61.com">Nusantaradomestic.61@gmail.com</a></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-globe"></i></td>
+								<td class="content"><a href="www.salon.co.id/">www.NusantaraTourandTravel.co.id</a></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-person-fill"></i></td>
+								<td class="content">ayu (contact person)</td>
+							</tr>
+					</table>
+					<table id="tabkontak">
+							<tr>
+								<td class="icon"><i class="bi bi-bricks"></i></td>
+								<td class="content"><strong>CONTACT FOR FOREIGN</strong></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-person-vcard-fill"></i></td>
+								<td class="content">ruko Greenland Blok N No.10 Batam Centar</td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-telephone-fill"></i></td>
+								<td class="content">(022) 838466729</td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-envelope-at-fill"></i></td>
+								<td class="content"><a href="mailto:sa@lon.co.id">Nusantaraforeign.61@gmail.com</a></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-globe"></i></td>
+								<td class="content"><a href="www.salon.co.id/">www.NusantaraTourandTravel.co.id</a></td>
+							</tr>
+	   
+							<tr>
+								<td class="icon"><i class="bi bi-person-fill"></i></td>
+								<td class="content">inggir (contact person)</td>
+							</tr>
+					</table>
+					</div>
+	   
+						<div class="col-md-6" id="peta">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.049637685446!2d104.04618297349012!3d1.1247126622612251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d98905189bc101%3A0x89442a0694eb87d2!2sPKBM%20SURYA%20CENDIKIA!5e0!3m2!1sid!2sid!4v1731470816051!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+	   
+			</div>
+    </div>
+	</div>						 		
+    <footer>
+	<div></div>
+	<div>
+				<center><p>&copy; 2024 Website Saya. Semua Hak Cipta Dilindungi.</p></center>
+	</div>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
